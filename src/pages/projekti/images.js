@@ -1,4 +1,4 @@
-export default [
+export default images = [
   '/project1.webp',
   '/project2.webp',
   '/project3.webp',
