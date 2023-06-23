@@ -1,0 +1,26 @@
+.nasvetiBox {
+  background-color: white;
+  color: black;
+}
+
+.nasvetiBox img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.nasvetiInformationContainer {
+  padding: 30px 10px 40px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.nasvetiTtitle {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.nasvetiDescription {
+  font-weight: 200;
+  color: gray;
+}

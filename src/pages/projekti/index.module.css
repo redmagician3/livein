@@ -1,0 +1,159 @@
+.projectsContainer {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/landingImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-gap: 3px;
+  animation: imageTransition 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.categoryContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 40px;
+  width: 25%;
+}
+
+.categoryHise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-gap: 5px;
+  cursor: pointer;
+}
+
+.categoryHise:hover img {
+  filter: invert();
+}
+
+.categoryHise p {
+  font-size: 1.5vw;
+}
+
+.categoryHise:hover p {
+  opacity: 1 !important;
+  font-family: 'NATS';
+}
+
+.categoryContainer p {
+  color: white;
+}
+
+.projektiHeading {
+  color: white;
+  font-size: 55px;
+  line-height: 70px;
+  font-weight: 300;
+  width: 25%;
+}
+.projektiHeading > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.numbersContainer {
+  color: white;
+  font-size: 40px;
+  width: 25%;
+}
+
+.hisaNumbers,
+.stanovanjaNumbers,
+.ostaloNumbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* grid-gap: 30px; */
+}
+
+.numbersContainer a {
+  transition: all 0.2s ease-in-out;
+}
+
+.numbersContainer a:hover {
+  transform: scale(1.8);
+}
+
+.clickedHisa {
+  filter: invert();
+}
+
+@keyframes imageTransition {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .projectsContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/landingImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .categoryContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+    width: 80%;
+  }
+
+  .categoryHise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 5px;
+    cursor: pointer;
+  }
+
+  .categoryHise:hover img {
+    filter: invert();
+  }
+
+  .categoryHise p {
+    font-size: 5vw;
+  }
+
+  .projektiHeading {
+    color: white;
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 300;
+    width: 80%;
+  }
+  .projektiHeading > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .numbersContainer {
+    color: white;
+    font-size: 40px;
+    width: 80%;
+  }
+}

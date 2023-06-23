@@ -1,0 +1,279 @@
+.projectContainer {
+  display: grid;
+  background-color: black;
+  grid-template-areas:
+    'firstImage firstImage firstImage firstImage'
+    'secondImage secondImage secondImage secondImage'
+    'thirdImage thirdImage fourthImage fourthImage'
+    'fifthImage fifthImage sixthImage sixthImage'
+    'seventhImage seventhImage seventhImage eigthImage';
+
+  grid-gap: 10px;
+  z-index: 10 !important;
+  width: 100%;
+  position: relative;
+}
+
+.projectContainer img:nth-child(1) {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  grid-area: firstImage;
+}
+
+.projectContainer img:nth-child(2) {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  grid-area: secondImage;
+}
+
+.projectContainer img:nth-child(3) {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: inline-block;
+  grid-area: thirdImage;
+  background-repeat: no-repeat;
+}
+.projectContainer img:nth-child(4) {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: inline-block;
+  grid-area: fourthImage;
+}
+
+.projectContainer img:nth-child(5) {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  grid-area: fifthImage;
+}
+
+.projectContainer img:nth-child(6) {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  grid-area: sixthImage;
+}
+.projectContainer img:nth-child(7) {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  grid-area: seventhImage;
+}
+
+.projectContainer img:nth-child(8) {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  grid-area: eigthImage;
+}
+
+.infoContainer {
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 10%;
+  z-index: 20;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 100px;
+}
+
+.text h1:first-child {
+  font-size: 5vw;
+  line-height: 3vw;
+  letter-spacing: 20px;
+  font-family: 'NATS';
+  text-shadow: 4px 4px 4px #000000;
+}
+
+.text h1:nth-child(2) {
+  font-size: 8vw;
+  line-height: 4vw;
+  font-weight: 300;
+  text-shadow: 4px 4px 4px #000000;
+}
+
+.streetContainer {
+  font-size: 2.5vw;
+  font-weight: 200;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.streetContainer > p {
+  text-shadow: 4px 4px 4px #000000;
+}
+
+.projectAddresContainer {
+  margin-top: 200px;
+  font-size: 3vw;
+  font-family: 'NATS';
+  line-height: 2.6vw;
+  font-weight: 400;
+  text-shadow: 4px 4px 4px #000000;
+  letter-spacing: 10px;
+}
+
+.transparentContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.homePageContainer {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  .projectContainer {
+    display: grid;
+    background-color: black;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'firstImage firstImage firstImage firstImage'
+      'secondImage secondImage secondImage secondImage'
+      'thirdImage thirdImage thirdImage thirdImage'
+      'fourthImage fourthImage fourthImage fourthImage'
+      'fifthImage fifthImage fifthImage fifthImage'
+      'sixthImage sixthImage sixthImage sixthImage'
+      'seventhImage seventhImage seventhImage seventhImage'
+      'eigthImage eigthImage eigthImage eigthImage';
+
+    grid-gap: 3px;
+    z-index: 10 !important;
+    width: 100%;
+    position: relative;
+  }
+
+  .projectContainer img:nth-child(1) {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    grid-area: firstImage;
+  }
+
+  .projectContainer img:nth-child(2) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    grid-area: secondImage;
+  }
+
+  .projectContainer img:nth-child(3) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+    grid-area: thirdImage;
+    background-repeat: no-repeat;
+  }
+  .projectContainer img:nth-child(4) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+    grid-area: fourthImage;
+  }
+
+  .projectContainer img:nth-child(5) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    grid-area: fifthImage;
+  }
+
+  .projectContainer img:nth-child(6) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    grid-area: sixthImage;
+  }
+  .projectContainer img:nth-child(7) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    grid-area: seventhImage;
+  }
+
+  .projectContainer img:nth-child(8) {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    grid-area: eigthImage;
+  }
+
+  .infoContainer {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 10%;
+    z-index: 20;
+  }
+
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 40px;
+  }
+
+  .text h1:first-child {
+    font-size: 15vw;
+    line-height: 15vw;
+    letter-spacing: 20px;
+    font-family: 'NATS';
+    text-shadow: 4px 4px 4px #000000;
+  }
+
+  .text h1:nth-child(2) {
+    font-size: 30vw;
+    line-height: 4vw;
+    font-weight: 300;
+    text-shadow: 4px 4px 4px #000000;
+  }
+
+  .streetContainer {
+    font-size: 7.5vw;
+    font-weight: 200;
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+
+  .streetContainer > p {
+    text-shadow: 4px 4px 4px #000000;
+  }
+
+  .projectAddresContainer {
+    margin-top: 140px;
+    font-size: 6.5vw;
+    font-family: 'NATS';
+    line-height: 6.5vw;
+    font-weight: 400;
+    text-shadow: 4px 4px 4px #000000;
+    letter-spacing: 10px;
+  }
+
+  .transparentContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+  }
+
+  .homePageContainer {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+  }
+}

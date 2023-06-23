@@ -1,0 +1,170 @@
+.zgodbaContainer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.zgodbaBackgroundImage {
+  width: 100%;
+  height: 130vh;
+  background-image: url('/podstranHeroImage.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.titleIconContainer {
+  margin-top: 20%;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  font-size: 3vw;
+  line-height: 100px;
+}
+
+.titleIconContainer h1 {
+  letter-spacing: 20px;
+  font-weight: 300 !important;
+  font-size: 4vw;
+  font-family: 'NATS';
+}
+
+.titleIconContainer img {
+  width: 4%;
+}
+
+.textContainer {
+  width: 45%;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.textContainer {
+  color: white;
+  margin: -100px auto 0 auto;
+}
+
+.textContainer > p {
+  margin-bottom: 3%;
+}
+
+.ekipaContainer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: white;
+}
+
+.ekipaContainer h1 {
+  letter-spacing: 20px;
+  text-align: center;
+  font-size: 5vw;
+  line-height: 100px;
+  margin: 7% 0 4% 0;
+  font-family: 'NATS';
+  font-weight: 300 !important;
+}
+
+.ekipaContainer img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.ekipaContainer p {
+  width: 45%;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  margin: 0 auto 10% auto;
+}
+
+@media screen and (max-width: 600px) {
+  .zgodbaContainer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+  }
+  .zgodbaBackgroundImage {
+    height: 80vh;
+  }
+
+  .titleIconContainer {
+    margin-top: 40%;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    font-size: 3vw;
+    line-height: 50px;
+  }
+
+  .titleIconContainer h1 {
+    letter-spacing: 20px;
+    font-weight: 300 !important;
+    font-size: 8vw;
+    font-family: 'NATS';
+  }
+
+  .titleIconContainer img {
+    width: 4%;
+  }
+
+  .textContainer {
+    width: 85%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+
+  .textContainer {
+    color: white;
+    margin: -100px auto 0 auto;
+  }
+
+  .textContainer > p {
+    margin-bottom: 3%;
+  }
+
+  .ekipaContainer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+  }
+
+  .ekipaContainer h1 {
+    letter-spacing: 20px;
+    text-align: center;
+    font-size: 10vw;
+    line-height: 100px;
+    margin: 7% 0 4% 0;
+    font-family: 'NATS';
+    font-weight: 300 !important;
+  }
+
+  .ekipaContainer img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .ekipaContainer p {
+    width: 85%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0.05em;
+    margin: 0 auto 10% auto;
+  }
+}

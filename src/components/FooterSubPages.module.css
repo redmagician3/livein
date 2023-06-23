@@ -1,0 +1,11 @@
+.footerContainer {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+  width: 100%;
+}

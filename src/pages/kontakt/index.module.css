@@ -1,0 +1,291 @@
+.konaktContainer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.konaktBackgroundImage {
+  width: 100%;
+  height: 130vh;
+  background-image: url('/podstranHeroImage.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  font-family: 'NATS';
+  letter-spacing: 15px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.titleIconContainer {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.titleIconContainer img {
+  width: 20%;
+}
+
+.subHeading {
+  position: absolute;
+  bottom: -30%;
+}
+
+.contactInfoContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  color: white;
+  padding: 6% 10%;
+  grid-gap: 15%;
+}
+
+.infoContainer {
+  text-align: left;
+}
+
+.box {
+  border: 1px solid white;
+  color: #a4804d;
+  padding-left: 20px;
+  font-size: 1.5vw;
+  font-weight: 800;
+  line-height: 2vw;
+}
+
+.naslovContainer {
+  font-size: 1.4vw;
+  line-height: 1.4vw;
+}
+
+.naslovContainer:first-child p {
+  margin: 5px 0 10px 0;
+}
+
+.phoneContainer {
+  font-size: 1.4vw;
+  line-height: 1.4vw;
+}
+
+.phoneContainer p:nth-child(2) {
+  margin: 5px 0 10px 0;
+}
+
+.imePriimekContainer > input {
+  width: 48%;
+  margin-bottom: 2%;
+}
+
+.imePriimekContainer input:nth-child(1) {
+  margin-right: 2%;
+}
+.imePriimekContainer input:nth-child(2) {
+  margin-left: 2%;
+}
+
+.phoneEmailContainer > input {
+  width: 48%;
+  margin-bottom: 2%;
+}
+
+.phoneEmailContainer input:nth-child(1) {
+  margin-right: 2%;
+}
+.phoneEmailContainer input:nth-child(2) {
+  margin-left: 2%;
+}
+
+.formContainer {
+  /* width: 90%; */
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.formContainer input {
+  /* margin: 0 2%; */
+  background-color: black;
+  color: white;
+  border-radius: 0;
+  border: 1px solid white;
+  padding: 10px;
+  outline: none;
+  font-size: 1vw;
+}
+
+.tipProstora > input {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.textarea > textarea {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  border: 1px solid white;
+  padding: 15px;
+  color: white;
+  border-radius: 0;
+  outline: none;
+  font-family: inherit;
+}
+
+.formContainer button {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+  background-color: white;
+  padding: 7px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 600px) {
+  .konaktContainer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+  }
+  .konaktBackgroundImage {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/podstranHeroImage.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    font-family: 'NATS';
+    letter-spacing: 15px;
+    font-weight: 300;
+    font-size: 20px;
+  }
+
+  .titleIconContainer {
+    margin-top: 40%;
+    text-align: center;
+  }
+
+  .titleIconContainer img {
+    /* width: 15%; */
+  }
+
+  .subHeading {
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+  }
+
+  .contactInfoContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+    padding: 6% 10%;
+    grid-gap: 5%;
+  }
+
+  .infoContainer {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .box {
+    border: 1px solid white;
+    color: #a4804d;
+    padding: 10px 20px;
+    font-size: 7vw;
+    font-weight: 600;
+    line-height: 2vw;
+  }
+
+  .naslovContainer {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+
+  .naslovContainer:first-child p {
+    margin: 0px 0 10px 0;
+  }
+
+  .phoneContainer {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+
+  .phoneContainer p:nth-child(2) {
+    margin: 5px 0 10px 0;
+  }
+
+  .imePriimekContainer > input {
+    width: 48%;
+    margin-bottom: 2%;
+  }
+
+  .imePriimekContainer input:nth-child(1) {
+    margin-right: 2%;
+  }
+  .imePriimekContainer input:nth-child(2) {
+    margin-left: 2%;
+  }
+
+  .phoneEmailContainer > input {
+    width: 48%;
+    margin-bottom: 2%;
+  }
+
+  .phoneEmailContainer input:nth-child(1) {
+    margin-right: 2%;
+  }
+  .phoneEmailContainer input:nth-child(2) {
+    margin-left: 2%;
+  }
+
+  .formContainer {
+    /* width: 90%; */
+    position: relative;
+    margin-bottom: 5%;
+  }
+
+  .formContainer input {
+    /* margin: 0 2%; */
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    border: 1px solid white;
+    padding: 10px;
+    outline: none;
+    font-size: 3vw;
+  }
+
+  .tipProstora > input {
+    width: 100%;
+    margin-bottom: 2%;
+  }
+
+  .textarea > textarea {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border: 1px solid white;
+    padding: 15px;
+    color: white;
+    border-radius: 0;
+    outline: none;
+  }
+
+  .formContainer button {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    padding: 7px 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 3vw;
+  }
+}

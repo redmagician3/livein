@@ -1,0 +1,10 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+
+.footerContainer a {
+  margin-top: -100px;
+}
