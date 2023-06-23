@@ -126,16 +126,36 @@ function index() {
               >
                 15
               </Link>
-              <Link href='/projekti/25' id='2' onMouseEnter={hoverHandler}>
+              <Link
+                href='/projekti/25'
+                id='2'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 32
               </Link>
-              <Link href='/projekti/32' id='3' onMouseEnter={hoverHandler}>
+              <Link
+                href='/projekti/32'
+                id='3'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 37
               </Link>
-              <Link href='/projekti/45' id='4' onMouseEnter={hoverHandler}>
+              <Link
+                href='/projekti/45'
+                id='4'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 40
               </Link>
-              <Link href='/projekti/51' id='5' onMouseEnter={hoverHandler}>
+              <Link
+                href='/projekti/51'
+                id='5'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 53
               </Link>
             </div>
@@ -143,22 +163,52 @@ function index() {
 
           {isCategoryStanovanjeActive && (
             <div className={classes.stanovanjaNumbers}>
-              <Link href='#' id='6' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='6'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 17
               </Link>
-              <Link href='#' id='7' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='7'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 18
               </Link>
-              <Link href='#' id='8' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='8'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 34
               </Link>
-              <Link href='#' id='9' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='9'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 35
               </Link>
-              <Link href='#' id='10' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='10'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 42
               </Link>
-              <Link href='#' id='11' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='11'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 52
               </Link>
             </div>
@@ -166,22 +216,52 @@ function index() {
 
           {isCategoryOstaloActive && (
             <div className={classes.ostaloNumbers}>
-              <Link href='#' id='12' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='12'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 11
               </Link>
-              <Link href='#' id='13' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='13'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 13
               </Link>
-              <Link href='#' id='14' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='14'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 14
               </Link>
-              <Link href='#' id='15' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='15'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 27
               </Link>
-              <Link href='#' id='16' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='16'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 38
               </Link>
-              <Link href='#' id='17' onMouseEnter={hoverHandler}>
+              <Link
+                href='#'
+                id='17'
+                onMouseEnter={hoverHandler}
+                onClick={clickHandler}
+              >
                 51
               </Link>
             </div>
